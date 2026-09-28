@@ -1,17 +1,23 @@
 # learnd through this repo
-Git<br>
-Learned git init initializes a Git repository but does not track files.<br>
-Used git status to check file states.<br>
-Used git ls-files to see tracked files.<br>
-Learned the importance of .gitignore for excluding .env, venv/, and __pycache__/.<br>
-Understood the basic Git flow: git init → git add → git commit.<br>
-<br>
-LangChain<br>
-Learned PromptTemplate for creating dynamic prompts using variables like {topic}.<br>
-Learned prompt.invoke() fills the template and returns a PromptValue.<br>
-Learned model.invoke() sends the prompt to the chat model and returns an AIMessage.<br>
-Learned response.content extracts the generated text.<br>
-Used ChatGroq with a Groq API key and openai/gpt-oss-20b.<br>
-Understood the difference between model provider and model.<br>
-Learned the difference between provider-specific classes (ChatGroq, ChatOpenAI, etc.) and the unified init_chat_model().<br>
-Understood that init_chat_model() provides a common way to initialize models across providers; it does not replace PromptTemplate.<br>
+<h2>Git</h2>
+
+<ul>
+  <li>Learned <code>git init</code> initializes a Git repository but does not track files.</li>
+  <li>Used <code>git status</code> to check file states.</li>
+  <li>Used <code>git ls-files</code> to see tracked files.</li>
+  <li>Learned the importance of <code>.gitignore</code> for excluding <code>.env</code>, <code>venv/</code>, and <code>__pycache__/</code>.</li>
+  <li>Understood the basic Git flow: <code>git init → git add → git commit</code>.</li>
+</ul>
+
+<h2>LangChain</h2>
+
+<ul>
+  <li>Learned <code>PromptTemplate</code> for creating dynamic prompts using variables like <code>{topic}</code>.</li>
+  <li>Learned <code>prompt.invoke()</code> fills the template and returns a <code>PromptValue</code>.</li>
+  <li>Learned <code>model.invoke()</code> sends the prompt to the chat model and returns an <code>AIMessage</code>.</li>
+  <li>Learned <code>response.content</code> extracts the generated text.</li>
+  <li>Used <code>ChatGroq</code> with a Groq API key and <code>openai/gpt-oss-20b</code>.</li>
+  <li>Understood the difference between a model provider and a model.</li>
+  <li>Learned the difference between provider-specific classes (<code>ChatGroq</code>, <code>ChatOpenAI</code>, etc.) and the unified <code>init_chat_model()</code>.</li>
+  <li>Understood that <code>init_chat_model()</code> provides a common way to initialize models across providers; it does not replace <code>PromptTemplate</code>.</li>
+</ul>

@@ -1,10 +1,10 @@
 # learnd through this repo
 Git
-Learned git init initializes a Git repository but does not track files.
-Used git status to check file states.
-Used git ls-files to see tracked files.
-Learned the importance of .gitignore for excluding .env, venv/, and __pycache__/.
-Understood the basic Git flow: git init → git add → git commit.
+Learned git init initializes a Git repository but does not track files.<br>
+Used git status to check file states.<br>
+Used git ls-files to see tracked files.<br>
+Learned the importance of .gitignore for excluding .env, venv/, and __pycache__/.<br>
+Understood the basic Git flow: git init → git add → git commit.<br>
 
 LangChain
 Learned PromptTemplate for creating dynamic prompts using variables like {topic}.

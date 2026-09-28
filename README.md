@@ -6,7 +6,7 @@ Used git ls-files to see tracked files.<br>
 Learned the importance of .gitignore for excluding .env, venv/, and __pycache__/.<br>
 Understood the basic Git flow: git init → git add → git commit.<br>
 <br>
-LangChain
+LangChain<br>
 Learned PromptTemplate for creating dynamic prompts using variables like {topic}.<br>
 Learned prompt.invoke() fills the template and returns a PromptValue.<br>
 Learned model.invoke() sends the prompt to the chat model and returns an AIMessage.<br>

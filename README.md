@@ -1,5 +1,5 @@
 # learnd through this repo
-Git
+Git<br>
 Learned git init initializes a Git repository but does not track files.<br>
 Used git status to check file states.<br>
 Used git ls-files to see tracked files.<br>
